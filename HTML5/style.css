@@ -1,0 +1,39 @@
+/* CCF244 - 818C2B - 52591D - EDF250 - 0D0D0D */
+
+body{
+    background: #0D0D0D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Título */
+.tittle{
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+/* Subtítulo */
+.subtittle{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Título */
+.post{
+    background: #EDF250;
+    padding: 15px;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
+
+.texto{
+    color: #000;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.image{
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
