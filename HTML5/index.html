@@ -1,34 +1,49 @@
-<!-- DOCTYPE indica ao navegador que é um documento do tipo HTML5. -->
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- DOCTYPE indica ao navegador que é um documento do tipo HTML5. -->
 
-<!-- Atributo lang para o navegador identificar em qual idioma do documento, para o português brasileiro usamos "pt-BR". -->
-<html lang="pt-BR">
+<html lang="pt-BR"> <!-- Atributo lang para o navegador identificar em qual idioma do documento, para o português brasileiro usamos "pt-BR". -->
 
-<!-- A tag head contém os elementos que serão lidos pelo navegador. -->
-<head>
+<head> <!-- A tag head contém os elementos que serão lidos pelo navegador. -->
     <meta charset="UTF-8"> <!-- Informa o navegador o formato de codificação utilizado no documento. -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Exclusivo para o internet explorer, pode ser também IE=5... -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Referênciando o arquivo style.css-->
     <title>lucasquin</title> <!-- Título que fica na aba do navegador-->
 </head>
 
-<!-- Todo o corpo do documento visível ao usuário, textos, imagens, vídeos... -->
-<body>
+<body> <!-- Todo o corpo do documento visível ao usuário, textos, imagens, vídeos... -->
+
     <header>
-        <h1>:Lucas Lopes Quintino</h1>
-    </header>
-    <section>
-        <header>
-            <h2>Posts</h2>
-        </header>
-        <article>
-            <header>
-                <h3>Post #1</h3>
-            </header>
+        <h1>Lucas Lopes Quintino</h1>
+        <img src="img/batman-1-1.jpg" alt="Imagem do poster oficial do filme 'The Batman'">
+    </header> <!-- Representa o cabeçalho de um documento ou de uma seção. -->
+
+    <section> <!-- Define uma seção de um documento, como cabeçalho, rodapé, etc. -->
+
+        <header> <h2>Posts</h2> </header>
+
+        <article> <!-- Define um artigo. -->
+
+            <header> <h3>Post #1</h3> </header>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGOEZ3k80v-uA/profile-displayphoto-shrink_800_800/0/1644806313963?e=1653523200&v=beta&t=YQ6_NttO92ZejlM8ngc-2MHqJrFdKEpDRFl_h0G7ouI" alt="Foto de perfil no Linkedin">
+            <p>
+                Lorem ipsum dolor sit amet, <a href="https://www.linkedin.com/in/lucasqinn/" target="_blank">consectetur adipiscing</a> elit, sed do
+                <a href="mailto:hey@lucasquin.dev">eiusmod</a> tempor incididunt ut labore et dolore magna aliqua. Neque gravida in fermentum et sollicitudin ac orci. Viverra aliquet eget sit amet tellus cras adipiscing. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Molestie at elementum eu facilisis sed odio morbi. Tristique senectus et netus et. Est sit amet facilisis magna etiam tempor orci eu. Consequat mauris nunc congue nisi vitae. Dictum varius duis at consectetur lorem donec massa sapien. Ultrices tincidunt arcu non sodales neque sodales. Suspendisse sed nisi lacus sed viverra tellus. Cras pulvinar mattis nunc sed. A arcu cursus vitae congue mauris rhoncus aenean vel. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Volutpat est velit egestas dui.
+    
+                Vitae suscipit tellus mauris a diam maecenas sed enim. Enim sit amet venenatis urna cursus eget nunc. At augue eget arcu dictum varius. Enim ut tellus elementum sagittis vitae et leo duis ut. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Justo eget magna fermentum iaculis. Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Duis at consectetur lorem donec massa sapien faucibus et. Convallis posuere morbi leo urna molestie at elementum eu. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque.
+            </p>
+
         </article>    
     </section>
-    <footer>
-        
+
+    <footer> <!-- Tag footer é o rodapé do documento. -->
+        <ol> <!-- ul = lista não ordenada, aparecera os pontos | ol = lista ordenada, aparecera com números ordenando os itens.-->
+            <li>
+                <a href="mailto:hey@lucasquin.dev">hey@lucasquin.dev</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/lucasqinn/">aLinkedIn</a>
+            </li>
+        </ol>
     </footer>
 </body>
 </html>
